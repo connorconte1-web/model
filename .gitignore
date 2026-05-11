@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+
+# Generated artifacts
+models/
+predictions_upcoming.csv
+value_bets.csv
+backtest_bets.csv
+backtest_summary.csv
+backtest_bankroll.csv
+
+.pytest_cache/
+.coverage
+.ipynb_checkpoints/
