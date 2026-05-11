@@ -52,6 +52,22 @@ peru-pred value --threshold 0.03
 peru-pred tune-xi --start 2025-08-01 --end 2025-12-14
 ```
 
+## Interactive HTML
+
+A single-file interactive viewer is also shipped:
+
+```bash
+python3 scripts/export_html.py peru_pred.html
+# then just open peru_pred.html in any browser
+```
+
+The page bakes the fitted Dixon-Coles parameters and per-pair corner means
+into JSON inside the file. The browser recomputes 1X2 / O/U / BTTS / first-to-
+score / HT markets live as you pick a (home, away) pairing, and provides a
+"value finder" where you paste current bookmaker odds to see live edge and
+Kelly stake. It also lists the model's pre-computed value bets for every
+remaining 2026 fixture. No server required.
+
 ## Markets covered
 
 | Group       | Markets                                                                                  |

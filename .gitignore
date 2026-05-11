@@ -13,6 +13,8 @@ value_bets.csv
 backtest_bets.csv
 backtest_summary.csv
 backtest_bankroll.csv
+# peru_pred.html is regenerated from data; keep tracked so it's reviewable
+!peru_pred.html
 
 .pytest_cache/
 .coverage
